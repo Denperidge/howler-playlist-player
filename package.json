@@ -1,0 +1,18 @@
+{
+  "name": "howler-playlist-player",
+  "description": "A drag-and-drop, yet customisable, HTML playlist player",
+  "version": "0.0.1",
+  "source": "src/index.js",
+  "umd:main": "dist/howler-playlistplayer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "microbundle watch --name howlerplaylistplayer --no-compress",
+    "build": "microbundle build --name howlerplaylistplayer"
+  },
+  "author": "Denperidge",
+  "license": "MIT",
+  "devDependencies": {
+    "howler": "^2.2.3",
+    "microbundle": "^0.15.1"
+  }
+}
