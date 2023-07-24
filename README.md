@@ -16,7 +16,10 @@ npm run build  # Alternatively, use npm start to watch for automatic rebuild
 ```
 
 ### Publish a new version
-Simply use `npm version {major,minor,patch}` and push! A GitHub Action will take care of publishing it.
+- Run `npm version {major,minor,patch}`
+- This will return the new version number
+- Run `git push origin vX.X.X`
+- That's it! GitHub Actions will take care of publishing it.
 
 ## Discussions
 ### Dev instability
