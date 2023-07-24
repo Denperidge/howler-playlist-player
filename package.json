@@ -5,8 +5,8 @@
   "source": "src/index.js",
   "umd:main": "dist/howler-playlistplayer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "microbundle watch --name howlerplaylistplayer --no-compress",
+    "start": "npm run dev",
+    "dev": "microbundle watch --name howlerplaylistplayer --no-compress",
     "build": "microbundle build --name howlerplaylistplayer"
   },
   "author": "Denperidge",
