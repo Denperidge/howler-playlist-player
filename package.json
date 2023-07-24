@@ -1,7 +1,7 @@
 {
   "name": "howler-playlist-player",
   "description": "A drag-and-drop, yet customisable, HTML playlist player",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "source": "src/index.js",
   "umd:main": "dist/howler-playlistplayer.js",
   "scripts": {
