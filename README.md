@@ -2,9 +2,12 @@
 A drag-and-drop, yet customisable, HTML music player!
 
 ## How-to
-### Adding to your website
+### Usage
+To include this in your website, simply load the javascript file
+- (TODO: document CDN)
+- Or, download `howler-playlist-player.js` from the latest [Release](https://github.com/Denperidge/howler-playlist-player/releases), place it in your directory and include it through `<script src="howler-playlist-player.js"></script>`
 
-
+Then simply run `howlerplaylistplayer("target-element-id", ["path/to/song.mp3", "path/to/song2.mp3"])`!
 
 
 ### Build locally
