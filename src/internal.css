@@ -1,0 +1,26 @@
+.howler-playlist-player {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    font-weight: bold;
+}
+
+.howler-playlist-player > * {
+    flex-grow: 1;
+    min-width: 100px;
+
+    background-color: whitesmoke;
+}
+
+.howler-playlist-player button, .howler-playlist-player .range {
+    border: 1px dashed black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.howler-playlist-player .range {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

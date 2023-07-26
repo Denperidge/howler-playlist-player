@@ -1,9 +1,16 @@
 import { Howl } from "howler";
-import { html, setup } from "./internal.js"
+import { defaultHtml, setup } from "./internal.js";
+import defaultCss from "./internal.css";
 
-export default function HowlerPlaylistPlayer(id, songs=[], songNameRegex=undefined) {
+export default function HowlerPlaylistPlayer(
+    id,
+    songs= [],
+    playerHtml=defaultHtml,
+    playerCss=defaultCss,
+    songNameRegex = undefined) {
     try {
-        document.getElementById(id).outerHTML = html;
+        document.getElementById(id).outerHTML = "<style>" + playerCss +  "</style>" + playerHtml;
+
         setup(songs);
     }
     catch (error) {

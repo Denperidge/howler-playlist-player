@@ -1,8 +1,8 @@
 const className = "howler-playlist-player";
-export const html = `
+export const defaultHtml = `
 <section class="${className}">
-    <button class="prev"></button>
-    <button class="play"></button>
+    <button class="prev">&lt;</button>
+    <button class="play">play</button>
     <button class="nowPlaying">
         <span>Now playing:</span>
         <span class="songNameContainer">
@@ -13,7 +13,7 @@ export const html = `
     <div class="range">
         <input class="volume" type="range" value="10"/>
     </div>
-    <button class="next"></button>
+    <button class="next">&gt;</button>
 
 </section>
 `;

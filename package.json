@@ -6,8 +6,8 @@
   "umd:main": "dist/howler-playlistplayer.js",
   "scripts": {
     "start": "npm run dev",
-    "dev": "microbundle watch --name howlerplaylistplayer --no-compress",
-    "build": "microbundle build --name howlerplaylistplayer"
+    "dev": "microbundle watch --name howlerplaylistplayer --no-compress --css inline",
+    "build": "microbundle build --name howlerplaylistplayer --css inline"
   },
   "author": "Denperidge",
   "license": "MIT",
